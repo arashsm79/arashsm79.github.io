@@ -790,7 +790,7 @@
     version = "2.1.1";
   };
   nokogiri = {
-    dependencies = ["racc"];
+    dependencies = ["mini_portile2" "racc"];
     groups = ["default" "jekyll_plugins"];
     platforms = [];
     source = {

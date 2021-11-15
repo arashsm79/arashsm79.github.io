@@ -748,6 +748,16 @@
     };
     version = "0.3.6";
   };
+  mini_portile2 = {
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "1lvxm91hi0pabnkkg47wh1siv56s6slm2mdq1idfm86dyfidfprq";
+      type = "gem";
+    };
+    version = "2.6.1";
+  };
   minima = {
     dependencies = ["jekyll" "jekyll-feed" "jekyll-seo-tag"];
     groups = ["default" "jekyll_plugins"];

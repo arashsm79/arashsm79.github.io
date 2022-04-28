@@ -22,6 +22,7 @@
             buildInputs = with pkgs; [
               gems
               gems.wrappedRuby
+              bundix
             ];
           };
         }

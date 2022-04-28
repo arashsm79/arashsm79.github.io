@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Adobe Connect Screen Sharing on Linux"
+date:   2022-04-28
+tags: linux, tutorial
+author: [arash-sal-moslehian]
+---
 Adobe Connect does not have a native Linux client and its web app does not allow you to share your screen in a webinar.
 You could use Wine (vanilla wine or a wrapper like lutris, bottles, playonlinux, and etc.) to install the native client and share your screen that way, but that's just way too much of a hassle.
 
